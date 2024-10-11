@@ -1,9 +1,9 @@
-const author = "Natalie Wharton";
+const author = "Ryan Jacobs";
 const description =
-	"Computer Science major and software engineer from Pasadena, CA who engineers, develops, and creates beautiful things with technology.";
-const url = "https://portfolio-git-dev-natwharton.vercel.app";
+	"Passionate software developer from Pasadena, CA who lives to use engineering, critical thinking, and problem solving to create beautiful things with technology.";
+const url = "https://ryanjacobs.io";
 export const AppMetadata = {
-	metadataBase: new URL("https://portfolio-git-dev-natwharton.vercel.app"),
+	metadataBase: new URL("https://ryanjacobs.io"),
 	title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`
@@ -13,14 +13,21 @@ export const AppMetadata = {
 		icon: "/favicon.png"
 	},
 	keywords: [
-		"Natalie Wharton",
-		"Natalie Wharton - software developer",
-		"Natalie Wharton - software engineer",
-		"Natalie Wharton - computer science",
-		"Natalie Wharton - computer science major",
-		"Natalie Wharton - computer science student",
+		"Ryan Jacobs",
+		"Ryan Jacobs - software developer",
+		"Ryan Jacobs - software engineer",
+		"Ryan Jacobs - senior software developer",
+		"Ryan Jacobs - senior software engineer",
+		"Ryan Jacobs - computer science",
+		"Ryan Jacobs - computer science major",
 		"frontend developer",
+		"backend developer",
+		"fullstack developer",
 		"software engineer",
+		"software developer",
+		"senior software engineer",
+		"senior software developer",
+		"cloud architect",
 		"computer science"
 	],
 	creator: author,

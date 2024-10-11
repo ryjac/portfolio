@@ -25,29 +25,35 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Natalie Wharton, a Senior Computer Science student from Pasadena, CA, about
-							to graduate from California State University, Northridge.
+							With a robust foundation in <b>AWS cloud infrastructure</b> and{" "}
+							<b>real-time systems</b>, my career spans roles from an IT Solutions Specialist to
+							Nonprofit Chief Operating/Technology Officer to a Senior Software Engineer. In the
+							nonprofit space, I spearheaded initiatives to enhance employee efficiency through
+							automation and fostered an inclusive environment with accessible, user-centric
+							solutions. My expertise in <b>full-stack development</b>, combined with a proactive
+							approach in open-source communities, highlights my capability to innovate and lead in
+							tech-driven environments.
 						</p>
 						<p className="my-3.5">
-							During my university years, I developed a deep passion for web programming, and I
-							consistently engaged in learning new concepts and techniques in this field.
-						</p>
-						<p>So, officially, my programming journey began in 2017 as a WordPress developer.</p>
-						<p className="my-3.5">
-							I enjoy learning technologies that interest me, which is why I dedicated a significant
-							amount of time to working with WordPress.
-						</p>
-						<p>
-							One day, I decided to try something new, and I started learning React. I was so
-							excited to see how fast I can build a website with it, and how easy it is to maintain
-							it. Consequently, I quickly learnt Next.js and I used it to build some company
-							projects working in a team with a backend dev.
+							My technical toolkit is extensive, encompassing advanced skills in{" "}
+							<b>Javascript (React.js, Next.js), Node.js, C++, Java, and PHP</b>, alongside a strong
+							command of <b>PostgreSQL</b> and cloud technologies. This technical prowess is
+							complemented by a practical understanding of <b>microservices architecture</b> and{" "}
+							<b>containerization (Docker, Kubernetes)</b>, with a robust proficiency in{" "}
+							<b>continuous integration and continuous deployment (CI/CD) processes</b>. I am
+							passionate about leveraging technology to solve complex problems, enhance user
+							experiences, and drive business outcomes.
 						</p>
 						<p className="my-3.5">
-							In december 2023, I had an opportunity to start working as a React developer for a
-							company with the possibility of transitioning to mobile development. I was skeptical
-							about it at first, but I decided to give it a try, and I don&lsquo;t regret it. Now, I
-							thoroughly enjoy working with Flutter and Dart.
+							I earned my <b>B.S. in Computer Science </b>
+							from California State University, Northridge, leveraging a strong foundation in
+							algorithms, data structures, and software engineering principles. As a specialist in
+							software development, I focus on cloud solutions and full-stack engineering, with
+							extensive experience in Node.js, React, and AWS.
+						</p>
+						<p className="my-3.5">
+							Based in Pasadena, CA, I am fully authorized to work for any employer in the US. Let's
+							connect to discuss how I can contribute to your team and projects.
 						</p>
 					</div>
 				</div>

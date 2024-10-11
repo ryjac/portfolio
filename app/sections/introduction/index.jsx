@@ -13,25 +13,27 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"create cool stuff",
-		"read cool stuff",
-		"update cool stuff",
-		"destroy cool stuff"
+		"Software Developer",
+		"Freelancer",
+		"Open Source Contributor",
+		"Cloud Engineer",
+		"Full Stack Engineer",
+		"DevOps Enthusiast",
+		"Problem Solver",
+		"Technology Advocate",
+		"Systems Architect",
+		"User Experience Designer"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
 
 	useEffect(() => {
 		let interval = setInterval(() => {
-			setCount(count + 1);
-
-			if (count === 3) {
-				setCount(0);
-			}
+			setCount((prevCount) => (prevCount + 1) % text.length); // Cycles through all elements
 		}, 2000);
 
 		return () => clearInterval(interval);
-	}, [count]);
+	}, [text.length]);
 
 	return (
 		<LazyMotion features={domAnimation}>
@@ -50,7 +52,10 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Natalie</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Ryan</mark>.
+							</p>
+							<p className="py-2 md:py-4">
+								A <mark>passionate</mark> and <mark>experienced</mark> software developer.
 							</p>
 						</h1>
 
@@ -64,21 +69,11 @@ export function WelcomeSection() {
 									transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 								}}
 							>
-								I
+								<br />
 								<span
 									className="absolute flex flex-col transition-all duration-500 ease-in-expo"
 									style={{
-										top:
-											count === 0
-												? "0"
-												: count === 1
-												? "-100%"
-												: count === 2
-												? "-200%"
-												: count === 3
-												? "-300%"
-												: "0",
-										left: "13px"
+										top: `-${count * 100}%` // Calculate position based on count
 									}}
 								>
 									{text.map((element) => (
@@ -126,8 +121,7 @@ export function WelcomeSection() {
 }
 
 function TextElement({ element }) {
-	const firstWord = <b>{element.split(" ").at(0)}</b>;
-	const restWords = element.split(" ").slice(1).join(" ");
+	const words = <b>{element}</b>;
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 
@@ -142,7 +136,7 @@ function TextElement({ element }) {
 				transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 			}}
 		>
-			{firstWord} {restWords}
+			{words}
 		</span>
 	);
 }
