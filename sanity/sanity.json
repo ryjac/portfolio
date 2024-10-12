@@ -1,10 +1,10 @@
 {
 	"root": true,
 	"project": {
-		"name": "green-scorpion"
+		"name": "Portfolio Studio"
 	},
 	"api": {
-		"projectId": "r978aweg",
+		"projectId": "brpry9zq",
 		"dataset": "production"
 	},
 	"plugins": [

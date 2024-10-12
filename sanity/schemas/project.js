@@ -34,14 +34,14 @@ export default {
 			title: "Stack",
 			of: [{ type: "reference", to: { type: "stack" } }]
 		},
-		{
-			name: "poster",
-			title: "Poster",
-			type: "image",
-			options: {
-				hotspot: true
-			}
-		},
+		// {
+		// 	name: "poster",
+		// 	title: "Poster",
+		// 	type: "image",
+		// 	options: {
+		// 		hotspot: true
+		// 	}
+		// },
 		{
 			name: "images",
 			title: "Gallery",

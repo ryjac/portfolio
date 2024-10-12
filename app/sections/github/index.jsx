@@ -28,7 +28,7 @@ export function GithubSection() {
 						transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 					}}
 				>
-					Days I code:
+					My recent contributions:
 				</p>
 				<div
 					ref={stackRef}
