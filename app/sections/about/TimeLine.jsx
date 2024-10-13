@@ -5,11 +5,26 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { useTheme } from "next-themes";
 
 const TimeLineData = [
-	{ year: 2023, text: "Start my journey as a Flutter developer" },
-	{ year: 2022, text: "Start my journey as a React developer" },
-	{ year: 2021, text: "Dive completely into React.js" },
-	{ year: 2018, text: "Work as a WordPress developer" },
-	{ year: 2017, text: "Start a 3mo WordPress internship" }
+	{
+		year: 2010,
+		text: "With a love for computers and technology, started self-learning C++, HTML, SQL, and PHP."
+	},
+	{
+		year: 2018,
+		text: "Developed Wordpress sites. Started learning Javascript, React, and Node.js.  Went back to college."
+	},
+	{
+		year: 2021,
+		text: "Learned more modern languages and frameworks; Java, Python, Next.js, etc. Started learning AWS."
+	},
+	{
+		year: 2023,
+		text: "Started position as a nonprofit COO/CTO, began initiative of modernization and tech-first solutions."
+	},
+	{
+		year: 2024,
+		text: "Graduated with a Bachelors of Science in Computer Science.  Ready to transition careers into the tech."
+	}
 ];
 
 export function TimeLine() {
@@ -20,19 +35,19 @@ export function TimeLine() {
 	const { theme, systemTheme } = useTheme();
 	const currentTheme = theme === "system" ? systemTheme : theme;
 
-	const scroll = (node, left) => {
-		return node.scrollTo({ left, behavior: "smooth" });
+	const scroll = (node, right) => {
+		return node.scrollTo({ right, behavior: "smooth" });
 	};
 
 	const handleClick = (e, i) => {
 		e.preventDefault();
 
 		if (carouselRef.current) {
-			const scrollLeft = Math.floor(
+			const scrollRight = Math.floor(
 				carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
 			);
 
-			scroll(carouselRef.current, scrollLeft);
+			scroll(carouselRef.current, scrollRight);
 		}
 	};
 
@@ -86,10 +101,9 @@ export function TimeLine() {
 							>
 								<h3
 									tabIndex="0"
-									aria-label={"What do I do in " + item.year}
+									aria-label={"What did I do in " + item.year}
 									className="flex items-center gap-4 text-2xl font-bold"
 								>
-									{`${item.year}`}
 									<svg
 										width="208"
 										height="6"
@@ -98,25 +112,14 @@ export function TimeLine() {
 										fill={currentTheme === "dark" ? "#fff" : "#232332"}
 									>
 										<path
+											transform="rotate(180, 104, 3)"
 											fillRule="evenodd"
 											clipRule="evenodd"
 											d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
 											fillOpacity="0.5"
 										/>
-										<defs>
-											<linearGradient
-												id="paint0_linear"
-												x1="-4.30412e-10"
-												y1="0.5"
-												x2="208"
-												y2="0.500295"
-												gradientUnits="userSpaceOnUse"
-											>
-												<stop stopColor="#fff" />
-												<stop offset="0.79478" stopColor="#fff" stopOpacity="0" />
-											</linearGradient>
-										</defs>
 									</svg>
+									{`${item.year}`}
 								</h3>
 								<p className="tracking-wide" tabIndex="0">
 									{item.text}

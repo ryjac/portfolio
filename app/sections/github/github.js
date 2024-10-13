@@ -2,7 +2,8 @@ import GitHubCalendar from "react-github-calendar";
 
 function Github() {
 	const minimalTheme = {
-		light: ["hsl(0, 0%, 92%)", "blue"]
+		light: ["hsl(0, 0%, 92%)", "blue"],
+		dark: ["hsl(0, 0%, 92%)", "blue"]
 		// for `dark` the default theme will be used
 	};
 

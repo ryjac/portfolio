@@ -1,59 +1,84 @@
-import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub, AiFillGitlab } from "react-icons/ai";
-import { DiCss3, DiVisualstudio, DiWindows, DiLinux } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io";
-import { FaReact, FaWordpressSimple, FaPython, FaTrello, FaNodeJs } from "react-icons/fa";
-import { BsBootstrap } from "react-icons/bs";
-import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
-import { SiSanity } from "react-icons/si";
-// import { RiFlutterFill } from "react-icons/ri";
-import AdobeXDIcon from "public/assets/svg/adobexd.svg";
-import WebstormIcon from "public/assets/svg/webstorm.svg";
-import JiraIcon from "public/assets/svg/jira.svg";
-// import HeadlessUiIcon from "public/assets/svg/headlessui.svg";
-import MuiIcon from "public/assets/svg/mui.svg";
-import StyledIcon from "public/assets/svg/styledcomponents.svg";
+import { FaJava } from "react-icons/fa";
+import {
+	SiSanity,
+	SiDjango,
+	SiExpress,
+	SiMongodb,
+	SiMysql,
+	SiGit,
+	SiApache,
+	SiPhp,
+	SiAmazonwebservices,
+	SiJira,
+	SiFlask,
+	SiInsomnia,
+	SiDocker,
+	SiMui,
+	SiStyledcomponents,
+	SiJavascript,
+	SiReact,
+	SiNextdotjs,
+	SiTailwindcss,
+	SiHtml5,
+	SiCss3,
+	SiAntdesign,
+	SiBootstrap,
+	SiNodedotjs,
+	SiPython,
+	SiVisualstudiocode,
+	SiWordpress,
+	SiWindows,
+	SiLinux,
+	SiCplusplus,
+	SiMicrosoftazure
+} from "react-icons/si";
 
 export const TECHNOLOGIES = [
-	// {
-	// 	category: "Mobile",
-	// 	items: [{ name: "Flutter", icon: <RiFlutterFill size={32} /> }]
-	// },
 	{
 		category: "Front-end",
 		items: [
-			{ name: "JS", icon: <IoLogoJavascript size={64} /> },
-			{ name: "React", icon: <FaReact size={64} /> },
-			{ name: "Next.js", icon: <TbBrandNextjs size={64} /> },
-			{ name: "MUI", icon: <MuiIcon width={64} /> },
-			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={64} /> },
-			{ name: "HTML", icon: <AiFillHtml5 size={64} /> },
-			{ name: "CSS", icon: <DiCss3 size={64} /> },
-			{ name: "AntD", icon: <AiOutlineAntDesign size={64} /> },
-			{ name: "Bootstrap", icon: <BsBootstrap size={64} /> },
-			{ name: "Styled Components", icon: <StyledIcon width={64} /> }
+			{ name: "JS", icon: <SiJavascript size={64} /> },
+			{ name: "React", icon: <SiReact size={64} /> },
+			{ name: "Next.js", icon: <SiNextdotjs size={64} /> },
+			{ name: "MUI", icon: <SiMui size={64} /> },
+			{ name: "Tailwind CSS", icon: <SiTailwindcss size={64} /> },
+			{ name: "HTML", icon: <SiHtml5 size={64} /> },
+			{ name: "CSS", icon: <SiCss3 size={64} /> },
+			{ name: "AntD", icon: <SiAntdesign size={64} /> },
+			{ name: "Bootstrap", icon: <SiBootstrap size={64} /> },
+			{ name: "Styled Components", icon: <SiStyledcomponents size={64} /> }
 		]
 	},
 	{
 		category: "Backend",
 		items: [
-			{ name: "Node.js", icon: <FaNodeJs size={64} /> },
-			{ name: "Python", icon: <FaPython size={64} /> }
-			// { name: "XD", icon: <AdobeXDIcon width={64} /> }
+			{ name: "AWS", icon: <SiAmazonwebservices size={64} /> },
+			{ name: "Node.js", icon: <SiNodedotjs size={64} /> },
+			{ name: "Express", icon: <SiExpress size={64} /> },
+			{ name: "Java", icon: <FaJava size={64} /> },
+			{ name: "C++", icon: <SiCplusplus size={64} /> },
+			{ name: "Python", icon: <SiPython size={64} /> },
+			{ name: "Django", icon: <SiDjango size={64} /> },
+			{ name: "Flask", icon: <SiFlask size={64} /> },
+			{ name: "MongoDB", icon: <SiMongodb size={64} /> },
+			{ name: "SQL", icon: <SiMysql size={64} /> },
+			{ name: "Apache", icon: <SiApache size={64} /> },
+			{ name: "PHP", icon: <SiPhp size={64} /> }
 		]
 	},
 	{
 		category: "Other tools",
 		items: [
+			{ name: "Git", icon: <SiGit size={64} /> },
+			{ name: "Docker", icon: <SiDocker size={64} /> },
 			{ name: "Sanity", icon: <SiSanity size={64} /> },
-			{ name: "Jira", icon: <JiraIcon width={64} /> },
-			{ name: "Trello", icon: <FaTrello size={64} /> },
-			{ name: "Github", icon: <AiFillGithub size={64} /> },
-			{ name: "Gitlab", icon: <AiFillGitlab size={64} /> },
-			{ name: "VsCode", icon: <DiVisualstudio size={64} /> },
-			{ name: "WebStorm", icon: <WebstormIcon width={64} /> },
-			{ name: "WordPress CMS", icon: <FaWordpressSimple size={64} /> },
-			{ name: "Windows", icon: <DiWindows size={64} /> },
-			{ name: "Linux", icon: <DiLinux size={64} /> }
+			{ name: "Jira", icon: <SiJira size={64} /> },
+			{ name: "VsCode", icon: <SiVisualstudiocode size={64} /> },
+			{ name: "Azure", icon: <SiMicrosoftazure size={64} /> },
+			{ name: "Insomnia", icon: <SiInsomnia size={64} /> },
+			{ name: "WordPress CMS", icon: <SiWordpress size={64} /> },
+			{ name: "Windows", icon: <SiWindows size={64} /> },
+			{ name: "Linux", icon: <SiLinux size={64} /> }
 		]
 	}
 ];
