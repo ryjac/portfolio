@@ -37,6 +37,7 @@ export function ProjectItem({ project, index }) {
 							items={galleryImages}
 							showPlayButton={false}
 							showThumbnails={false}
+							// useBrowserFullscreen={false} maybe play with this to fix larger image instead of full screen
 							showIndex
 							lazyload
 							additionalClass="gallery-item"

@@ -35,7 +35,7 @@ import {
 
 export const TECHNOLOGIES = [
 	{
-		category: "Front-end",
+		category: "Frontend",
 		items: [
 			{ name: "JS", icon: <SiJavascript size={64} /> },
 			{ name: "React", icon: <SiReact size={64} /> },
