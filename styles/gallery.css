@@ -34,6 +34,21 @@
 	@apply absolute top-0 bottom-0 left-[60px] w-[calc(100%-120px)] p-5 flex-center opacity-0 transition-opacity;
 }
 
+/* Move fullscreen button when in fullscreen mode */
+.image-gallery-content.fullscreen .image-gallery-fullscreen-button {
+	top: 10px; /* Adjust to position at the top */
+	right: 10px; /* Move it to the right */
+	left: auto; /* Override the left positioning */
+	bottom: auto; /* Override the bottom positioning */
+	width: auto; /* Adjust width to fit the button content */
+	padding: 10px; /* Adjust padding */
+	opacity: 0.2; /* Ensure visibility in fullscreen */
+}
+
+.gallery-item .image-gallery-fullscreen-button:focus {
+	outline: none; /* Remove focus outline */
+}
+
 .gallery-item .image-gallery-fullscreen-button .image-gallery-svg {
 	@apply !h-8 !w-8;
 }
@@ -51,14 +66,21 @@
 	@apply opacity-100;
 }
 
-.image-gallery-content.fullscreen .image-gallery-fullscreen-button {
-	@apply hidden;
-}
-
 .image-gallery-content.fullscreen .image-gallery-slide img {
 	@apply object-contain;
 }
 
 #projects .image-gallery-index {
 	@apply hidden;
+}
+
+/* Target the fullscreen content to ensure it respects the header space */
+.image-gallery-content.fullscreen {
+	position: fixed;
+	max-height: calc(80vh - 100px);
+}
+
+/* Apply transparent background in fullscreen mode */
+.image-gallery.fullscreen-modal {
+	background-color: rgba(0, 0, 0, 0.8) !important;
 }

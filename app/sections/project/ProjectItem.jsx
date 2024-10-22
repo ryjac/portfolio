@@ -1,4 +1,4 @@
-import { Suspense, useRef } from "react";
+import { Suspense, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 import Link from "next/link";
 import ImageGallery from "react-image-gallery";
@@ -11,12 +11,22 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export function ProjectItem({ project, index }) {
 	const { description, images, liveUrl, repoUrl, stack, title } = project;
 	const cardRef = useRef(null);
+	const galleryRef = useRef(null); // Ref for ImageGallery
 	const isInView = useInView(cardRef, { once: true });
+	const [isFullscreen, setIsFullscreen] = useState(false); // Fullscreen state
 
 	const galleryImages = images.map((img) => ({
 		original: img,
 		loading: "lazy"
 	}));
+
+	// Function to handle closing fullscreen
+	const handleCloseFullscreen = () => {
+		if (galleryRef.current) {
+			galleryRef.current.fullScreen(); // Exit fullscreen
+			setIsFullscreen(false); // Update state
+		}
+	};
 
 	return (
 		<article
@@ -34,16 +44,28 @@ export function ProjectItem({ project, index }) {
 				<div className="aspect-[12/9.2] w-full h-full">
 					<Suspense fallback={<Loader />}>
 						<ImageGallery
+							ref={galleryRef}
 							items={galleryImages}
 							showPlayButton={false}
 							showThumbnails={false}
-							// useBrowserFullscreen={false} maybe play with this to fix larger image instead of full screen
+							useBrowserFullscreen={false}
 							showIndex
 							lazyload
 							additionalClass="gallery-item"
+							onScreenChange={(isFullScreen) => setIsFullscreen(isFullScreen)} // Detect fullscreen mode
 						/>
 					</Suspense>
 				</div>
+
+				{/* Close button for fullscreen mode */}
+				{isFullscreen && (
+					<button
+						className="absolute top-4 right-4 bg-red-500 text-white p-2 rounded-full z-50"
+						onClick={handleCloseFullscreen}
+					>
+						X
+					</button>
+				)}
 			</figure>
 
 			<div className="flex-[2] px-5 py-6 text-center flex flex-col gap-10">
