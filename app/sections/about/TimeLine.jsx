@@ -30,7 +30,6 @@ const TimeLineData = [
 export function TimeLine() {
 	const [, setActiveItem] = useState(0);
 	const carouselRef = useRef(null);
-	// const animRef = useRef(null);
 	const isInView = useInView(carouselRef, { once: true });
 	const { theme, systemTheme } = useTheme();
 	const currentTheme = theme === "system" ? systemTheme : theme;
