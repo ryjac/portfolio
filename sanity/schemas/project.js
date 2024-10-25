@@ -8,7 +8,7 @@ export default {
 			title: "Creation date",
 			type: "date",
 			options: {
-				dateFormat: "DD-MM-YYYY",
+				dateFormat: "MM-DD-YYYY",
 				calendarTodayLabel: "Today"
 			}
 		},
@@ -34,14 +34,6 @@ export default {
 			title: "Stack",
 			of: [{ type: "reference", to: { type: "stack" } }]
 		},
-		// {
-		// 	name: "poster",
-		// 	title: "Poster",
-		// 	type: "image",
-		// 	options: {
-		// 		hotspot: true
-		// 	}
-		// },
 		{
 			name: "images",
 			title: "Gallery",

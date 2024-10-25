@@ -68,7 +68,7 @@ export function ProjectItem({ project, index }) {
 				)}
 			</figure>
 
-			<div className="flex-[2] px-5 py-6 text-center flex flex-col gap-10">
+			<div className="flex-[2] px-4 py-6 text-center flex flex-col gap-10">
 				<header className="flex-1 flex items-center justify-start flex-col gap-3">
 					<h3 tabIndex="0" className="text-2xl font-bold">
 						{title}
