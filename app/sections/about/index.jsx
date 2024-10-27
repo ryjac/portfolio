@@ -25,35 +25,36 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							With a robust foundation in <b>AWS cloud infrastructure</b> and{" "}
-							<b>real-time systems</b>, my career spans roles from an IT Solutions Specialist to
-							Nonprofit Chief Operating/Technology Officer to a Senior Software Engineer. In the
-							nonprofit space, I spearheaded initiatives to enhance employee efficiency through
-							automation and fostered an inclusive environment with accessible, user-centric
-							solutions. My expertise in <b>full-stack development</b>, combined with a proactive
-							approach in open-source communities, highlights my capability to innovate and lead in
-							tech-driven environments.
+							Throughout my career, I have served as both{" "}
+							<b>Chief Operating & Technology Officer</b> in the nonprofit sector and as a{" "}
+							<b>Senior Software Engineer</b>, spearheading initiatives that streamlined operations
+							and empowered teams through accessible, user-centered solutions. With a strong
+							foundation rooted in <b>system design</b> and <b>modern tech stacks</b>, my experience
+							in development, combined with active involvement in corporate and open-source
+							communities, showcases my ability to <b>innovate</b> and <b>lead</b> within
+							technology-driven environments.
 						</p>
 						<p className="my-3.5">
-							My technical toolkit is extensive, encompassing advanced skills in{" "}
-							<b>Javascript (React.js, Next.js), Node.js, C++, Java, and PHP</b>, alongside a strong
-							command of <b>PostgreSQL</b> and cloud technologies. This technical prowess is
-							complemented by a practical understanding of <b>microservices architecture</b> and{" "}
-							<b>containerization (Docker, Kubernetes)</b>, with a robust proficiency in{" "}
-							<b>continuous integration and continuous deployment (CI/CD) processes</b>. I am
-							passionate about leveraging technology to solve complex problems, enhance user
-							experiences, and drive business outcomes.
+							My technical expertise spans <b>full-stack development</b>, encompassing advanced
+							skills in <b>Javascript (React, Next.js), Node.js, Python, C++, Java, and PHP</b>, as
+							well as strong proficiency in <b>MongoDB, PostgreSQL</b>, and{" "}
+							<b>cloud technologies</b>. I bring a practical understanding of{" "}
+							<b>AWS cloud infrastructure</b> and <b>real-time systems</b>, as well as{" "}
+							<b>microservices architecture</b> and <b>containerization (Docker)</b>, and have
+							experience with <b>continuous integration and continuous deployment (CI/CD)</b>{" "}
+							pipelines. I am passionate about leveraging technology to overcome complex challenges,
+							enhance user experiences, and achieve impactful business outcomes.
 						</p>
 						<p className="my-3.5">
-							I earned my <b>B.S. in Computer Science </b>
-							from California State University, Northridge, leveraging a strong foundation in
-							algorithms, data structures, and software engineering principles. As a specialist in
-							software development, I focus on cloud solutions and full-stack engineering, with
-							extensive experience in Node.js, React, and AWS.
+							I hold a <b>B.S. in Computer Science </b>
+							from California State University, Northridge, where I honed my skills in{" "}
+							<b>algorithms, data structures</b>, and <b>software engineering</b> principles. As a
+							specialist in software development, I focus on full-stack engineering and cloud
+							solutions, with the ability to adapt to just about any situation presented to me.
 						</p>
 						<p className="my-3.5">
-							Based in Pasadena, CA, I am fully authorized to work for any employer in the US. Let's
-							connect to discuss how I can contribute to your team and projects.
+							Based in <b>Pasadena, CA</b>, I am a California native fully authorized to work for
+							any employer in the US. Let's connect to discuss how I can bring value to your team.
 						</p>
 					</div>
 				</div>
