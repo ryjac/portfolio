@@ -7,23 +7,27 @@ import { useTheme } from "next-themes";
 const TimelineData = [
 	{
 		year: 2010,
-		text: "With a love for computers and technology, started self-learning C++, HTML, SQL, and PHP."
+		text: "Began self-teaching foundational programming languages like Visual Basic, C++, HTML, SQL, and PHP."
+	},
+	{
+		year: 2014,
+		text: "Developed WordPress sites and built skills in scripting, automation, and customization."
 	},
 	{
 		year: 2018,
-		text: "Developed Wordpress sites. Started learning Javascript, React, and Node.js.  Went back to college."
+		text: "Learned modern JavaScript frameworks (React, Node.js) and returned to college for Computer Science."
 	},
 	{
 		year: 2021,
-		text: "Learned more modern languages and frameworks; Java, Python, Next.js, etc. Started learning AWS."
+		text: "Furthered knowledge in Java, Python, and Next.js, and began learning AWS for cloud proficiency."
 	},
 	{
 		year: 2023,
-		text: "Started position as a nonprofit COO/CTO, began initiative of modernization and tech-first solutions."
+		text: "Appointed COO/CTO in the nonprofit sector, leading modernization and tech-driven solutions."
 	},
 	{
 		year: 2024,
-		text: "Graduated with a Bachelors of Science in Computer Science.  Ready to transition careers into the tech field."
+		text: "Graduated with a B.S. in Computer Science, ready to advance in a larger scale tech-focused career."
 	}
 ];
 
