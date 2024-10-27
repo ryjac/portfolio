@@ -14,10 +14,9 @@ export function WelcomeSection() {
 	let [count, setCount] = useState(0);
 	const [text] = useState([
 		"Software Developer",
-		"Freelancer",
+		"Full Stack Engineer",
 		"Open Source Contributor",
 		"Cloud Engineer",
-		"Full Stack Engineer",
 		"DevOps Enthusiast",
 		"Problem Solver",
 		"Technology Advocate",

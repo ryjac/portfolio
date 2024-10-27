@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
-import { NewTimeline } from "./NewTimeLine";
+import { NewTimeline } from "./NewTimeline";
 
 export function AboutSection() {
 	const ref = useRef(null);
