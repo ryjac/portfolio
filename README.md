@@ -1,18 +1,23 @@
-## Getting Started
+# Ryan Jacobs - Next.js Portfolio
 
-### Steps to run the project
+[www.ryanjacobs.io](www.ryanjacobs.io)
 
-- Install dependencies:
+Built with love using Next.js and Sanity Headless CMS.
+
+## Steps to run the project
+
+### 1. Install dependencies:
 
 ```bash
 npm install
 # or
-yarn
+yarn install
 ```
 
-- **`!!! Make sure to have installed Sanity globally`**
-Check sanity docs for more info: https://www.sanity.io/docs/getting-started-with-sanity-cli
+### 2. Configure Sanity
 
+- **`!!! Make sure to have installed Sanity globally`**
+  Check sanity docs for more info: https://www.sanity.io/docs/getting-started-with-sanity-cli
 
 - Create a file `.env.local` and put inside:
 
@@ -27,10 +32,12 @@ Check sanity docs for more info: https://www.sanity.io/docs/getting-started-with
 
 Also, the points from 2 to 5 are queries to get data from Sanity. It's up to you to create them. Otherwise, you can use your own queries.
 
-- Finally, run the development server:
+### 3. Finally, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+
+#### Happy coding
