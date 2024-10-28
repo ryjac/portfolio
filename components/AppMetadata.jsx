@@ -1,9 +1,9 @@
 const author = "Ryan Jacobs";
 const description =
-	"Passionate software developer from Pasadena, CA who lives to use engineering, critical thinking, and problem solving to create beautiful things with technology.";
-const url = "https://ryanjacobs.io";
+	"Passionate software developer from Pasadena, CA who loves to use engineering, critical thinking, and problem solving to create cool things with technology.";
+const url = "https://www.ryanjacobs.io";
 export const AppMetadata = {
-	metadataBase: new URL("https://ryanjacobs.io"),
+	metadataBase: new URL("https://www.ryanjacobs.io"),
 	title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`
@@ -40,16 +40,16 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: "https://portfolio-git-dev-natwharton.vercel.app/screenshot.webp",
+				url: "https://cdn.sanity.io/images/brpry9zq/production/522a803d1a6034f133ec3d5394bef8d49d6fc9c9-1729x1069.png",
 				width: 800,
 				height: 600,
-				alt: "My personal portfolio website"
+				alt: "Ryan Jacobs | Portfolio"
 			},
 			{
-				url: "https://portfolio-git-dev-natwharton.vercel.app/screenshot.webp",
+				url: "https://cdn.sanity.io/images/brpry9zq/production/522a803d1a6034f133ec3d5394bef8d49d6fc9c9-1729x1069.png",
 				width: 1800,
 				height: 1600,
-				alt: "My personal portfolio website"
+				alt: "Ryan Jacobs | Portfolio"
 			}
 		],
 		locale: "en-US",
