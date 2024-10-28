@@ -12,7 +12,9 @@ const nextConfig = {
 			use: ["@svgr/webpack"]
 		});
 		return config;
-	}
+	},
+	// Static export configuration for S3
+	output: "export"
 };
 
 module.exports = nextConfig;
