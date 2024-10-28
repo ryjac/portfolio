@@ -1,4 +1,4 @@
-import { Suspense, useRef, useState } from "react";
+import { Suspense, useRef } from "react";
 import { useInView } from "framer-motion";
 import Link from "next/link";
 import ImageGallery from "react-image-gallery";
