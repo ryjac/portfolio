@@ -5,6 +5,7 @@ import Link from "next/link";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { ParticlesHeader } from "./IntroParticles";
 import { useScrollTo } from "hooks";
+
 export function WelcomeSection() {
 	const ref = useRef(null);
 	const introRef = useRef(null);

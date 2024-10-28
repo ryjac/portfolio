@@ -54,7 +54,8 @@ export function AboutSection() {
 						</p>
 						<p className="my-3.5">
 							Based in <b>Pasadena, CA</b>, I am a California native fully authorized to work for
-							any employer in the US. Let's connect to discuss how I can bring value to your team.
+							any employer in the US. Let&apos;s connect to discuss how I can bring value to your
+							team.
 						</p>
 					</div>
 				</div>

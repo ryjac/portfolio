@@ -8,7 +8,7 @@ export const metadata = { ...AppMetadata };
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
+		<html lang="en" suppressHydrationWarning>
 			<body>
 				<ThemeContext>
 					<AppHeader />

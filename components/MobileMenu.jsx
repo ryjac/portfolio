@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { BsGrid } from "react-icons/bs";
 import { ConnectMedia, Logo, Menu } from "components";
 import {
 	animate,

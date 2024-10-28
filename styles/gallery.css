@@ -83,4 +83,5 @@
 /* Apply transparent background in fullscreen mode */
 .image-gallery.fullscreen-modal {
 	background-color: rgba(0, 0, 0, 0.8) !important;
+	z-index: 10 !important;
 }

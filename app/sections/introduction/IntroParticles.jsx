@@ -13,8 +13,8 @@ export function ParticlesHeader() {
 		await loadSlim(engine);
 	}, []);
 
-	const particlesLoaded = useCallback(async (container) => {
-		await console.log(container);
+	const particlesLoaded = useCallback((container) => {
+		console.log(container);
 	}, []);
 
 	return (
