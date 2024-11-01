@@ -5,7 +5,7 @@ const url = "https://www.ryanjacobs.io";
 export const AppMetadata = {
 	metadataBase: new URL("https://www.ryanjacobs.io"),
 	title: {
-		default: `Portfolio | ${author}`,
+		default: `${author} | Portfolio`,
 		template: `%s | ${author}`
 	},
 	description: description,
