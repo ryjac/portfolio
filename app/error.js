@@ -6,7 +6,7 @@ export default function Error({ error, reset }) {
 			<p className="text-3xl text-red-500">Something went wrong! </p>
 			<p className="text-red-500">{error.toString()}</p>
 			<button className="btn" onClick={() => reset()}>
-				Retry
+				Retry.
 			</button>
 		</div>
 	);
