@@ -18,6 +18,7 @@ export function WelcomeSection() {
 		"Full Stack Engineer",
 		"Open Source Contributor",
 		"Cloud Engineer",
+		"Pipeline Creator",
 		"DevOps Enthusiast",
 		"Problem Solver",
 		"Technology Advocate",
