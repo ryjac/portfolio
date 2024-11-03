@@ -2,7 +2,7 @@
 
 [www.ryanjacobs.io](www.ryanjacobs.io)
 
-Built with love using Next.js and Sanity Headless CMS.
+Built with love using Next.js, Tailwind, and Sanity Headless CMS.
 
 ## Steps to run the project
 
