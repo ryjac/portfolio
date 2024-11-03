@@ -4,7 +4,7 @@ export const SOCIAL_MEDIA = [
 	{
 		id: "github",
 		icon: <BsGithub />,
-		title: "Visit my Github profile",
+		title: "Visit my GitHub profile",
 		url: "https://github.com/ryjac"
 	},
 	{
