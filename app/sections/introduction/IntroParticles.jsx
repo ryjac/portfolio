@@ -13,15 +13,15 @@ export function ParticlesHeader() {
 		await loadSlim(engine);
 	}, []);
 
-	const particlesLoaded = useCallback((container) => {
-		console.log(container);
-	}, []);
+	// const particlesLoaded = useCallback((container) => {
+	// 	console.log(container);
+	// }, []);
 
 	return (
 		<Particles
 			id="tsparticles"
 			init={particlesInit}
-			loaded={particlesLoaded}
+			// loaded={particlesLoaded}
 			style={{
 				position: "absolute",
 				top: 0,

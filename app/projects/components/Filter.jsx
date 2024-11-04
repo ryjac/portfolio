@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-import { TbBrandJavascript, TbBrandNextjs } from "react-icons/tb";
-import { FaReact } from "react-icons/fa";
+import { SiReact, SiPython, SiAmazonwebservices } from "react-icons/si";
 import { FilterButton } from "./FilterButton";
 
 export function Filter({ onClick = (f) => f }) {
@@ -40,21 +39,21 @@ export function Filter({ onClick = (f) => f }) {
 						label="React"
 						active={activeFilter === "React"}
 					>
-						<FaReact size="20" />
+						<SiReact size="20" />
 					</FilterButton>
 					<FilterButton
-						onClick={() => handleFilterClick("Next.js")}
-						label="Next.js"
-						active={activeFilter === "Next.js"}
+						onClick={() => handleFilterClick("Python")}
+						label="Python"
+						active={activeFilter === "Python"}
 					>
-						<TbBrandNextjs size="20" />
+						<SiPython size="20" />
 					</FilterButton>
 					<FilterButton
-						onClick={() => handleFilterClick("Javascript")}
-						label="Javascript"
-						active={activeFilter === "Javascript"}
+						onClick={() => handleFilterClick("AWS")}
+						label="AWS"
+						active={activeFilter === "AWS"}
 					>
-						<TbBrandJavascript size="20" />
+						<SiAmazonwebservices size="20" />
 					</FilterButton>
 				</div>
 			</div>

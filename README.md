@@ -16,21 +16,19 @@ yarn install
 
 ### 2. Configure Sanity
 
-- **`!!! Make sure to have installed Sanity globally`**
-  Check sanity docs for more info: https://www.sanity.io/docs/getting-started-with-sanity-cli
+- **`Make sure to have installed Sanity globally`**
+  Check sanity docs for more info: https://www.sanity.io/docs/cli
 
-- Create a file `.env.local` and put inside:
+- Create a `.env.local` file and enter the following:
 
-1. NEXT_PUBLIC_SANITY_URL=""
-2. NEXT_PUBLIC_SANITY_LATEST_PROJECTS=""
-3. NEXT_PUBLIC_SANITY_ALL_PROJECTS=""
-4. NEXT_PUBLIC_SANITY_PROJECTS=""
-5. NEXT_PUBLIC_SANITY_PROJECT_BY_CATEGORY=""
-6. NEXT_PUBLIC_SANITY_TOKEN=""
+1. `NEXT_PUBLIC_SANITY_URL=""`
+2. `NEXT_PUBLIC_SANITY_TOKEN=""`
+3. `NEXT_PUBLIC_SANITY_LATEST_PROJECTS=""`
+4. `NEXT_PUBLIC_SANITY_ALL_PROJECTS=""`
 
-!!! Please, take into account that you need to create a token in Sanity Studio, and put it in NEXT_PUBLIC_SANITY_TOKEN.
+**Note:** You need to create a token in Sanity Studio, and enter it for `NEXT_PUBLIC_SANITY_TOKEN`.
 
-Also, the points from 2 to 5 are queries to get data from Sanity. It's up to you to create them. Otherwise, you can use your own queries.
+Also, items 3 & 4 are GROQ queries to get data from Sanity. It's up to you to create them.
 
 ### 3. Finally, run the development server:
 

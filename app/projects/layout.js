@@ -13,11 +13,13 @@ const url = `${process.env.NEXT_PUBLIC_SANITY_URL}${process.env.NEXT_PUBLIC_SANI
 
 export default function Page() {
 	const [category, setCategory] = useState(undefined);
-	const filterUrl = `${process.env.NEXT_PUBLIC_SANITY_URL}${process.env.NEXT_PUBLIC_SANITY_PROJECTS}${category}${process.env.NEXT_PUBLIC_SANITY_PROJECT_BY_CATEGORY}`;
+	const { data, error, isLoading } = useSWR(url, fetcher);
 
-	const fetchUrl = category ? filterUrl : url;
-	const { data, error } = useSWR(fetchUrl, fetcher);
-	const filteredProjects = data?.result;
+	const allProjects = data?.result || [];
+
+	const filteredProjects = category
+		? allProjects.filter((project) => project.category.includes(category))
+		: allProjects;
 
 	const onClick = (catName) => setCategory(catName);
 
@@ -40,7 +42,7 @@ export default function Page() {
 					}
 				>
 					<ErrorBoundary FallbackComponent={Error}>
-						{filteredProjects === undefined ? (
+						{isLoading ? (
 							// Loading state
 							<div className="flex-center">
 								<Loader />
@@ -51,7 +53,7 @@ export default function Page() {
 								<h3 className="text-2xl">No projects found in {category} category</h3>
 							</div>
 						) : (
-							<Projects projects={filteredProjects} />
+							<Projects projects={filteredProjects} category={category} />
 						)}
 					</ErrorBoundary>
 				</Suspense>
