@@ -27,10 +27,10 @@ export function AboutSection() {
 						<p>
 							Throughout my career, I have served as both{" "}
 							<b>Chief Operating & Technology Officer</b> in the nonprofit sector and as a{" "}
-							<b>Senior Software Engineer</b>, spearheading initiatives that streamlined operations
-							and empowered teams through accessible, user-centered solutions. With a strong
-							foundation rooted in <b>system design</b> and <b>modern tech stacks</b>, my experience
-							in development, combined with active involvement in corporate and open-source
+							<b>Software Engineer</b>, spearheading initiatives that streamlined operations and
+							empowered teams through accessible, user-centered solutions. With a strong foundation
+							rooted in <b>system design</b> and <b>modern tech stacks</b>, my experience in
+							development, combined with active involvement in corporate and open-source
 							communities, showcases my ability to <b>innovate</b> and <b>lead</b> within
 							technology-driven environments.
 						</p>
