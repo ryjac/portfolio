@@ -1,6 +1,6 @@
 # Ryan Jacobs - Next.js Portfolio
 
-[www.ryanjacobs.io](www.ryanjacobs.io)
+www.ryanjacobs.io
 
 Built with love using Next.js, Tailwind, and Sanity Headless CMS.
 
