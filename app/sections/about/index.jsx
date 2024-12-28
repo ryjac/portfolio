@@ -12,7 +12,7 @@ export function AboutSection() {
 	return (
 		<LazyMotion features={domAnimation}>
 			<section id="about" className="section">
-				<HeadingDivider title="About me" />
+				<HeadingDivider title="About Me" />
 				<div className="pt-10 pb-16 max-w-5xl flex flex-col gap-3">
 					<div
 						tabIndex="0"
@@ -25,37 +25,32 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							Throughout my career, I have served as both{" "}
-							<b>Chief Operating & Technology Officer</b> in the nonprofit sector and as a{" "}
-							<b>Software Engineer</b>, spearheading initiatives that streamlined operations and
-							empowered teams through accessible, user-centered solutions. With a strong foundation
-							rooted in <b>system design</b> and <b>modern tech stacks</b>, my experience in
-							development, combined with active involvement in corporate and open-source
-							communities, showcases my ability to <b>innovate</b> and <b>lead</b> within
-							technology-driven environments.
+							I’m an <b>experienced full-stack engineer</b> with a strong foundation in{" "}
+							<b>Python, React, and AWS</b>, passionate about solving complex technical challenges
+							and driving innovation. I specialize in developing scalable applications, implementing{" "}
+							<b>cloud infrastructure</b>, and automating workflows to optimize operational
+							efficiency.
 						</p>
 						<p className="my-3.5">
-							My technical expertise spans <b>full-stack development</b>, encompassing advanced
-							skills in <b>Javascript (React, Next.js), Node.js, Python, C++, Java, and PHP</b>, as
-							well as strong proficiency in <b>MongoDB, PostgreSQL</b>, and{" "}
-							<b>cloud technologies</b>. I bring a practical understanding of{" "}
-							<b>AWS cloud infrastructure</b> and <b>real-time systems</b>, as well as{" "}
-							<b>microservices architecture</b> and <b>containerization (Docker)</b>, and have
-							experience with <b>continuous integration and continuous deployment (CI/CD)</b>{" "}
-							pipelines. I am passionate about leveraging technology to overcome complex challenges,
-							enhance user experiences, and achieve impactful business outcomes.
+							I recently earned a <b>B.S. in Computer Science</b>, where I honed my skills in{" "}
+							<b>algorithms, data structures</b>, and <b>software engineering principles</b> while
+							working full-time—demonstrating adaptability, problem-solving skills, and a commitment
+							to excellence.
 						</p>
 						<p className="my-3.5">
-							I hold a <b>B.S. in Computer Science </b>
-							from California State University, Northridge, where I honed my skills in{" "}
-							<b>algorithms, data structures</b>, and <b>software engineering</b> principles. As a
-							specialist in software development, I focus on full-stack engineering and cloud
-							solutions, with the ability to adapt to just about any situation presented to me.
+							In my current role as <b>Lead Software Engineer</b>, I have architected and deployed{" "}
+							<b>AWS-based infrastructures</b>, designed and implemented <b>CI/CD pipelines</b>, and
+							developed user-friendly applications with <b>React</b> and <b>Next.js frontends</b>{" "}
+							and <b>Python backends</b>. I focus on <b>full-stack engineering</b> and{" "}
+							<b>cloud solutions</b> and possess a diverse skill set spanning multiple{" "}
+							<b>languages, frameworks,</b> and <b>tools</b>. I excel at quickly learning new
+							technologies, adapting to any situation, and consistently delivering impactful
+							results.
 						</p>
+
 						<p className="my-3.5">
-							Based in <b>Pasadena, CA</b>, I am a California native fully authorized to work for
-							any employer in the US. Let&apos;s connect to discuss how I can bring value to your
-							team.
+							Based in <b>Pasadena, CA</b>, I am fully authorized to work for any employer in the
+							US. Let&apos;s connect to discuss how I can bring value to your team.
 						</p>
 					</div>
 				</div>

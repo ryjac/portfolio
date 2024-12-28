@@ -7,27 +7,31 @@ import { useTheme } from "next-themes";
 const TimelineData = [
 	{
 		year: 2010,
-		text: "Began self-teaching foundational programming languages like Visual Basic, C++, HTML, SQL, and PHP."
+		text: "Started self-teaching foundational programming concepts, learning languages like Visual Basic, C++, HTML, SQL, and PHP."
 	},
 	{
 		year: 2014,
-		text: "Developed WordPress sites and built skills in scripting, automation, and customization."
+		text: "Developed WordPress sites and built skills in scripting, automation, and website optimization."
 	},
 	{
 		year: 2018,
-		text: "Learned modern JavaScript frameworks (React, Node.js) and returned to college for Computer Science."
+		text: "Began mastering mordern JavaScript frameworks (React, Node.js) and returned to college for Computer Science."
+	},
+	{
+		year: 2020,
+		text: "Expanded skills to include Python, Flask, and MongoDB, while contributing to backend development for internal applications."
 	},
 	{
 		year: 2021,
-		text: "Furthered knowledge in Java, Python, and Next.js, and began learning AWS for cloud proficiency."
+		text: "Deepened knowledge in Java, Next.js, and AWS, with a focus on cloud infrastructure."
 	},
 	{
 		year: 2023,
-		text: "Appointed COO/CTO in the nonprofit sector, leading modernization and tech-driven solutions."
+		text: "Promoted to Lead Software Engineer, architecting and deploying AWS-based infrastructures, automating workflows, and leading the development of modern applications."
 	},
 	{
 		year: 2024,
-		text: "Graduated with a B.S. in Computer Science, ready to advance in a larger scale tech-focused career."
+		text: "Earned a B.S. in Computer Science. Actively seeking opportunities to make a larger impact in tech-focused roles."
 	}
 ];
 
